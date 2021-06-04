@@ -11,26 +11,32 @@
     width: 100%;
 }
 
+.form-row > label {
+    border: 1px solid lightgray;
+    border-bottom: none;
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-row label:hover {
+    border-left: 5px solid #6F81EB;
+}
+
 .form-row > input {
     color: #6F81EB;
-    border: none;
+    border: 1px solid lightgray;
+    border-top: none;
     width: 100%;
     padding: 12px 20px;  
 }
 
 .form-row > input:hover {
     border-left: 5px solid #6F81EB;
-
 }
 
-.form-row > label {
-    border: none;
-    width: 100%;
-    padding: 12px 20px;
-    font-size: 12px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.form-row label:hover {
-    border-left: 5px solid #6F81EB;
+.checkbox {
+    text-decoration: none;
+    forgot
 }
