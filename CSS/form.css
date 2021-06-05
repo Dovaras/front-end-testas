@@ -11,17 +11,17 @@
     width: 100%;
 }
 
+.form-row:hover {
+    border-left: 5px solid #6F81EB;
+}
+
 .form-row > label {
     border: 1px solid lightgray;
     border-bottom: none;
     width: 100%;
-    padding: 12px 20px;
+    /*padding: 12px 20px;*/
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.form-row label:hover {
-    border-left: 5px solid #6F81EB;
 }
 
 .form-row > input {
@@ -32,11 +32,16 @@
     padding: 12px 20px;  
 }
 
-.form-row > input:hover {
-    border-left: 5px solid #6F81EB;
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    text-align: left;
+    width: 100%;
 }
 
-.checkbox {
+.checkbox > a {
     text-decoration: none;
-    forgot
+    text-align: right;
+    width: 77%;
 }
