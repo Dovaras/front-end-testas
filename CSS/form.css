@@ -31,17 +31,3 @@
     width: 100%;
     padding: 12px 20px;  
 }
-
-.checkbox {
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    text-align: left;
-    width: 100%;
-}
-
-.checkbox > a {
-    text-decoration: none;
-    text-align: right;
-    width: 77%;
-}

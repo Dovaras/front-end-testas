@@ -25,6 +25,32 @@ main {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    text-align: left;
+    width: 100%;
+}
+
+.checkbox > a {
+    color:#96979F;
+    text-decoration: none;
+    text-align: right;
+    width: 77%;
+}
+
+span {
+    color:#96979F;
+}
+
+.left-column > a {
+    color: #6F81EB;
+    text-decoration: none;
+    text-align: right;
+    display: flex;
+}
+
 .right-column {
     width: 100%;
     display: flex;
